@@ -7,7 +7,7 @@ const Nav = () => {
 
     return (
         <div className={styles.navBar}>
-            <a id={styles.yourName} href="/#">Your name</a>
+            <a id={styles.yourName} href="/#">Lillian Sam</a>
             <div className={styles.linksDiv}>
                 <a href="/#dates">Dates</a>
                 <a href="/#videos">Videos</a>

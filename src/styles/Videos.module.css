@@ -1,5 +1,5 @@
 .videos {
-    background-image: url('../assets/videos.jpg');
+    /*background-image: url('../assets/videos.jpg');*/
 
 }
 
@@ -9,11 +9,14 @@
     height: 100vh;
     position: sticky;
     top: 0;
+    background-color: black;
+    justify-content: center;
+    display: flex;
 }
 
 .video {
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    max-height: 100vh;
 }
 
 .overlayText {

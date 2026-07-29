@@ -1,10 +1,16 @@
 .home {
-    background-image: url('../assets/background.jpg');
-    background-position:50%;
+    background-image: url('../assets/portrait.jpeg');
+    background-size: contain;
+    background-position: center;
     scroll-margin-top: 80px;
 
     height: 100vh;
     width: 100%;
     position: sticky;
     top: 0;
+}
+
+.homeImg {
+    /*background-image: url('../assets/portrait.jpeg');*/
+    max-height: 100vh;
 }
