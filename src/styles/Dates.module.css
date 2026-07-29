@@ -1,0 +1,10 @@
+.dates {
+    background-image: url('../assets/dates.jpg');
+
+    min-height: 100vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    color: white;
+    text-align: center;
+}

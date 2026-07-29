@@ -1,0 +1,10 @@
+.home {
+    background-image: url('../assets/background.jpg');
+    background-position:50%;
+    scroll-margin-top: 80px;
+
+    height: 100vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
