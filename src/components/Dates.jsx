@@ -1,5 +1,5 @@
 import styles from "../styles/Dates.module.css";
-import dates from '../assets/dates.jpg'
+import DatesDB from './DatesDB.js'
 
 
 const Dates = () => {
@@ -7,11 +7,9 @@ const Dates = () => {
         <section id='dates' className={styles.dates}>
             <h1>Dates</h1>
             <div className={styles.datesList}>
-                <h1>7/27 @ home</h1>
-                <h1>8/8 @ SF</h1>
-                <h1>7/27 @ home</h1>
-                <h1>9/1 @ los angeles</h1>
-                <h1>10/1 @ seattle</h1>
+                {DatesDB.map(show => (
+                    <h1>{show.date} @ {show.location}</h1>
+                ))}
 
             </div>
 
