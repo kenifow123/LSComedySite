@@ -1,10 +1,11 @@
 .home {
     background-image: url('../assets/portrait.jpeg');
-    background-size: contain;
-    background-position: center;
+    background-size: auto 100vh;
+    background-position: center top;
     scroll-margin-top: 80px;
 
-    height: 100vh;
+    overflow: hidden;
+    height: 70vh;
     width: 100%;
     position: sticky;
     top: 0;
@@ -12,5 +13,5 @@
 
 .homeImg {
     /*background-image: url('../assets/portrait.jpeg');*/
-    max-height: 100vh;
+    /*max-height: 70vh;*/
 }

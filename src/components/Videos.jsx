@@ -14,11 +14,11 @@ const Videos = () => {
                 <img className={styles.video} src={pic1}></img>
                 <img className={styles.video} src={pic1}></img>
 
-                <h2 className={styles.overlayText}>pic 1</h2>
+                {/*<h2 className={styles.overlayText}>pic 1</h2>*/}
             </div>
             <div className={styles.videoDiv}>
                 <img className={styles.video} src={pic2}></img>
-                <h2 className={styles.overlayText}>pic 2</h2>
+                {/*<h2 className={styles.overlayText}>pic 2</h2>*/}
 
             </div>
             <div className={styles.videoDiv}>
@@ -27,7 +27,7 @@ const Videos = () => {
 
                 <img className={styles.video} src={pic3}></img>
 
-                <h2 className={styles.overlayText}>pic 3</h2>
+                {/*<h2 className={styles.overlayText}>pic 3</h2>*/}
 
             </div>
 
